@@ -1,0 +1,41 @@
+<!-- Style a mettre tout en haut du fichier section -> featured-product.liquid (page d'acueil)
+Ou section -> product-template.liquid (page produit) -->
+
+{% style %}
+
+#PageContainer {
+	transform: unset;
+}
+
+.is-sticky .atc-sticks {
+    bottom: 0;
+    top: unset!important;
+    left: 0;
+    width: 100%!important;
+    display: flex;
+    justify-content: center;
+    background: white;
+    box-shadow: 1px 1px 8px black;
+    padding: 10px;
+}
+
+.is-sticky button {
+	width: 50%;
+    margin: 0;
+}
+
+{% endstyle %}
+
+<!-- fin style -->
+
+
+<!-- Code a mettre autour du <bouton type="submit" -->
+<!-- Le bouton peut se trouver dans un snippet -> product-form.liquid, cela depend des themes --<
+
+<div class="atc-sticks">
+
+   <!-- le <button type="submit" etc....></button> sera a l'interieur -->
+
+</div>
+
+<!-- fin -->
